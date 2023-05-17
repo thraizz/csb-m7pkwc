@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://.github.io/csb-m7pkwc/precache-manifest.2852e84248de90036295e138644397f3.js"
+  "https://thraizz.github.io/csb-m7pkwc/precache-manifest.2852e84248de90036295e138644397f3.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https://.github.io/csb-m7pkwc/index.html", {
+workbox.routing.registerNavigationRoute("https://thraizz.github.io/csb-m7pkwc/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
